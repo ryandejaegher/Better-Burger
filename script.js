@@ -29,7 +29,7 @@ Burger
         getBurgerLinks() {
             var burger = document.querySelector('a[href="burger"]');
             var links = burger.nextElementSibling.querySelectorAll('a');
-            console.log(links);
+            return links;
         }
 
         connectedCallback() {
