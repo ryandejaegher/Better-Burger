@@ -85,7 +85,6 @@
             //this.burger = document.querySelector('a[href="/burger"]');
             this.burger = document.querySelector('.burger');
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
-            this.burger.textContent ='w'
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
                 self.classList.add('is-open')
