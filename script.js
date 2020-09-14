@@ -34,6 +34,7 @@ Burger
 
         connectedCallback() {
             this.getBurgerLinks();
+            this.query
         }
     }
     window.customElements.define('better-burger', BetterBurger)
