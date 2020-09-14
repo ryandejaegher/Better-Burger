@@ -82,7 +82,7 @@
 
         getBurgerLinks() {
             //var burger = document.querySelector('a[href="/burger"]');
-            var burger = document.querySelector('div.burger');
+            var burger = document.querySelector('.burger');
             var links = burger.nextElementSibling.querySelectorAll('a');
             console.log(links)
             return links;
