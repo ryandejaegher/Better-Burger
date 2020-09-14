@@ -11,7 +11,7 @@
             background: yellow;
             top: 0;
             left: 0;
-            width: 100%;
+            width: 50%;
             height: 100vh;
             display: flex;
             flex-direction: column;
