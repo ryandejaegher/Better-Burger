@@ -130,7 +130,7 @@
                   {
                     opacity: ["0", "1"]
                     transform:[
-                        "translateY(-4px)","tran"
+                        "translateY(-4px)","translateY(0px)"
                     ]
                   },
                   {
