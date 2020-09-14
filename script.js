@@ -1,1 +1,2 @@
-var template = document.createElement('template')
+var template = document.createElement('template');
+
