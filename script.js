@@ -7,6 +7,8 @@
         :host {
             display: block;
         }    
+
+        :host()
     
     
     .burgerOverlay {
