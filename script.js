@@ -27,7 +27,7 @@
             z-index:10000;
             font-family: inherit;
             transform: translate(0%,0%);
-            /* transition: all 0.4s ease; */
+            transition: all 0.4s ease;
         }    
 
         :host-context(.is-open) {
