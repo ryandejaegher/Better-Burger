@@ -62,7 +62,7 @@
             self=this;
             this.attachShadow({mode:'open'})
             this.shadowRoot.appendChild(template.content.cloneNode(true));
-            this.burger = document.querySelector('a[href="burger"]');
+            this.burger = document.querySelector('a[href="/burger"]');
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
 
             this.burger.addEventListener('click', function() {
