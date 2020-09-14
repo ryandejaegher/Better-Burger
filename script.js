@@ -48,6 +48,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        outline: 1px solid white;
     }
 
     .burgerToggle svg {
