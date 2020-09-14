@@ -50,6 +50,10 @@
         right: 0;
     }
 
+    .burgerToggle svg {
+        width: 64px;
+    }
+
 
     </style>
     
