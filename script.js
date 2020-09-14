@@ -57,7 +57,7 @@
 
             this.burgerToggle.addEventListener('click', function() {
                 console.log(self)
-                self.style.display='none';
+                self.classList.add
                 console.log('the burger close button has been clicked')
             })
             
