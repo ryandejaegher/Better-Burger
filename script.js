@@ -110,7 +110,7 @@
                   },
                   {
                     duration: parseInt(1000, 10),
-                    delay: (index + 1) * parseInt(this.offset, 10),
+                    delay: (index + 1) * 100,
                     fill: "forwards",
                     easing: "ease-in-out"
                   }
