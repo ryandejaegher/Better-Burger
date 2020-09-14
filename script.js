@@ -26,7 +26,9 @@
             align-items: center;
             z-index:10000;
             font-family: inherit;
+            
             transform: translate(100%,0%);
+
             transition: all 0.6s cubic-bezier(0.85, 0, 0.15, 1);
         }    
 
