@@ -20,7 +20,7 @@
             z-index:10000;
             font-family: inherit;
             transform: translate(-100%,0%);
-            transition: all 1s ease;
+            transition: all 0.4s ease;
         }    
 
         :host-context(.is-open) {
