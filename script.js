@@ -6,9 +6,12 @@
     <style>
         :host {
             display: block;
+            visibility: hidden;
         }    
 
-        :host-context(.is-)
+        :host-context(.is-open) {
+            visibility:visible;
+        }
     
     
     .burgerOverlay {
@@ -23,11 +26,6 @@
         justify-content: center;
         align-items: center;
         z-index:10000;
-        visibility: hidden;
-    }
-
-    .burgerOverlay .is-open {
-        visibility:visible;
     }
 
 
