@@ -10,6 +10,7 @@
     
     
     .burgerOverlay {
+        position: relative;
         background: red;
         width: 100%;
         height: 100vh;
@@ -20,7 +21,7 @@
         z-index:10000;
     }
 
-    
+
     </style>
     
 
