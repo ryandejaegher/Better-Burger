@@ -91,7 +91,7 @@
             this.shadowRoot.appendChild(template.content.cloneNode(true));
             //this.burger = document.querySelector('a[href="/burger"]');
             this.burger = document.querySelector('.burger');
-            this.burget
+            this.burger.textContent='';
             this.burger.appendChild(burgerSVGTemplate.content.cloneNode(true))
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
             this.burger.addEventListener('click', function() {
