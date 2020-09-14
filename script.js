@@ -56,9 +56,7 @@
             });
 
             this.burgerToggle.addEventListener('click', function() {
-                console.log(self)
-                self.classList.add
-                console.log('the burger close button has been clicked')
+                self.classList.remove('is-open')
             })
             
             
