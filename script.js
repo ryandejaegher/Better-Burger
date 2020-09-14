@@ -70,6 +70,7 @@
                 console.log('the burger has been clicked')
                 self.classList.add('is-open')
                 self.preventBodyScrollWhenVisible();
+                self.animateLinks();
             });
 
             this.burgerToggle.addEventListener('click', function() {
