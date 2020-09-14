@@ -52,6 +52,7 @@
 
     .burgerToggle svg {
         width: 64px;
+        height: 64px;
     }
 
 
