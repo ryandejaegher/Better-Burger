@@ -26,7 +26,7 @@
             align-items: center;
             z-index:10000;
             font-family: inherit;
-            transform: translate(0%,0%);
+            transform: translate(100%,0%);
             transition: all 0.4s ease;
         }    
 
