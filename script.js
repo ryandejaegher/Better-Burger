@@ -34,8 +34,8 @@ Burger
 
         connectedCallback() {
             this.getBurgerLinks();
-            this.shadowRoot.querySelector('.burgerOveray');
-            console.log()
+            console.log(          this.shadowRoot.querySelector('.burgerOveray');)
+
         }
     }
     window.customElements.define('better-burger', BetterBurger)
