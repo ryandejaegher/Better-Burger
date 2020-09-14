@@ -12,6 +12,9 @@
     .burgerOverlay {
         background: red;
         width: 100%;
+        height: 100vh;
+        display: flex;
+        
         z-index:10000;
     }
     </style>
