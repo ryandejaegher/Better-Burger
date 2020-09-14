@@ -112,7 +112,7 @@
                   {
                     duration: parseInt(1000, 10),
                     delay: (index + 1) * 300,
-                    fill: "forwards",
+                    fill: "both",
                     easing: "ease-in-out"
                   }
                 );
