@@ -25,7 +25,9 @@
 
         }
 
-        isConnected
+        connectedCallback() {
+            this.getBurgerLinks();
+        }
     }
     window.customElements.define('better-burger', BetterBurger)
 })();
