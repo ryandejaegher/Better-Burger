@@ -132,7 +132,7 @@
                   },
                   {
                     duration: parseInt(400, 10),
-                    delay: (index + 1) * 200,
+                    delay: (index + 1) * 1500,
                     fill: "both",
                     easing: "ease-in-out"
                   }
