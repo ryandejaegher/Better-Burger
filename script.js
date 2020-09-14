@@ -128,7 +128,7 @@
                 link.style.opacity = "0";
                 link.animate(
                   {
-                    opacity: ["0", "1"]
+                    opacity: ["0", "1"],
                     transform:[
                         "translateY(-4px)","translateY(0px)"
                     ]
