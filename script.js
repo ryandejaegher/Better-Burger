@@ -12,7 +12,7 @@
     </style>
     
 
-    
+
     <div class="burgerOverlay">
 
     </div>
@@ -22,6 +22,7 @@
     class BetterBurger extends HTMLElement {
         constructor() {
             super()
+            this.attachShadow()
         }
 
         getBurgerLinks() {
