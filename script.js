@@ -44,11 +44,11 @@
     
 
 
-    <div class="burgerOverlay">
+    <slot></slot>
     <div class="burgerToggle">Close</div>
 
 
-    </div>
+
     
     `;
 
