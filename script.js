@@ -24,7 +24,9 @@
             visibility:visible;
         }
 
-        ::slot
+        ::slotted(*) {
+            font-family: inheirt;
+        }
     
     
     .burgerOverlay {
