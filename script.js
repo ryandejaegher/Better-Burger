@@ -25,7 +25,7 @@
         }
 
         ::slotted(*) {
-            font-family: inheirt;
+            font-family: inherit;
         }
     
     
