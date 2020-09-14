@@ -45,7 +45,7 @@
                 console.log('the burger has been clicked')
             }
             
-            this.sha
+            this.shadowRoot.querySelector('')
         
         }
 
