@@ -100,7 +100,9 @@
             window.scrollTo(0, parseInt(scrollY || '0') * -1);
         }
 
-
+        animateLinks() {
+            this.querySelectorAll('a')
+                }
 
 
 
