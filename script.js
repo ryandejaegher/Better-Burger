@@ -46,9 +46,9 @@
                 console.log('the burger has been clicked')
             };
 
-            this.burgerToggle.addEventListener('click',function() {
+            this.burgerToggle.addEventListener('click', function() {
                 console.log('the burger close button has been clicked')
-            })
+            }
             
             
 
