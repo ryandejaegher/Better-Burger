@@ -20,7 +20,7 @@
             align-items: center;
             z-index:10000;
             font-family: inherit;
-            transform: translate(200%,0%);
+            transform: translate(0%,0%);
             transition: all 0.4s ease;
         }    
 
