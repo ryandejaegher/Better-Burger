@@ -84,10 +84,14 @@
             return links;
         }
 
-        preventBodyScroll() {
+        preventBodyScrollWhenVisible() {
             document.body.style.position = 'fixed';
             document.body.style.top = `-${window.scrollY}px`;
         }
+
+        
+
+
 
 
 
