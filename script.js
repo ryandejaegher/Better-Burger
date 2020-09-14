@@ -12,6 +12,7 @@
     </style>
     
     
+    
     `;
 
     class BetterBurger extends HTMLElement {
