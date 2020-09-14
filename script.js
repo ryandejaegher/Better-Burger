@@ -13,4 +13,11 @@
     
     
     `;
+
+    class BetterBurger extends HTMLElement {
+        constructor() {
+            super()
+        }
+    }
+    window
 })();
