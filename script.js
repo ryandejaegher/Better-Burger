@@ -36,7 +36,7 @@ Burger
             this.getBurgerLinks();
             var overlay = this.shadowRoot.querySelector('.burgerOverlay');
             this.getBurgerLinks().forEach(link => {
-                overlay.appendChild(link)
+                overlay.append(link)
             })
 
         }
