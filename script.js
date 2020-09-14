@@ -23,6 +23,8 @@
         :host-context(.is-open) {
             visibility:visible;
         }
+
+        ::slot
     
     
     .burgerOverlay {
