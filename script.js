@@ -83,7 +83,7 @@
 
         connectedCallback() {
             this.getBurgerLinks();
-            console.log(overlay)
+            // console.log(overlay)
             this.getBurgerLinks().forEach(link => {
                 this.appendChild(link)
             })
