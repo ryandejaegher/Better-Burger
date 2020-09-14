@@ -11,6 +11,7 @@
             background: yellow;
             top: 0;
             left: 0;
+            right:0;
             width: 50%;
             height: 100vh;
             display: flex;
