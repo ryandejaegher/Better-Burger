@@ -19,6 +19,7 @@
             align-items: center;
             z-index:10000;
             font-family: inherit;
+            transform: translate(-100)
         }    
 
         :host-context(.is-open) {
