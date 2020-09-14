@@ -102,7 +102,7 @@
 
         animateLinks() {
             this.querySelectorAll('a')
-                }
+         }
 
 
 
