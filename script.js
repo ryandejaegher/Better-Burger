@@ -69,12 +69,12 @@
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
                 self.classList.add('is-open')
-                tis.preventBodyScrollWhenVisible();
+                self.preventBodyScrollWhenVisible();
             });
 
             this.burgerToggle.addEventListener('click', function() {
                 self.classList.remove('is-open')
-                
+                self.resetBodyPositionWhenNotVisible();
             })
             
         }
