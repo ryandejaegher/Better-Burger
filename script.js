@@ -17,9 +17,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         z-index:10000;
     }
+
+    
     </style>
     
 
