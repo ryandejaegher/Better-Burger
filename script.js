@@ -10,7 +10,7 @@
     
     
     .burgerOverlay {
-        position: relative;
+        position: fixed;
         background: red;
         width: 100%;
         height: 100vh;
