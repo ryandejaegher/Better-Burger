@@ -18,6 +18,7 @@
             justify-content: center;
             align-items: center;
             z-index:10000;
+            font-family: inherit;
         }    
 
         :host-context(.is-open) {
