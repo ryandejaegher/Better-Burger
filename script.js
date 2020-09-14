@@ -26,7 +26,7 @@
 
         :host-context(.is-open) {
             visibility:visible;
-            transform: translate(0%,0%);
+            transform: translate(50%,0%);
         }
 
         ::slotted(*) {
