@@ -140,6 +140,7 @@
                     transform:[
                         "translateY(12px)","translateY(0px)"
                     ]
+                    transform:
                   },
                   {
                     duration: parseInt(400, 10),
