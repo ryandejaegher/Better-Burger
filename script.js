@@ -46,8 +46,8 @@
 
     .burgerToggle {
         position: absolute;
-        top: 480;
-        right: 0;
+        top: 48px;
+        right: 48px;
     }
 
     .burgerToggle svg {
