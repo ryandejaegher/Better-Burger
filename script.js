@@ -8,7 +8,7 @@
             display: block;
         }    
 
-        :host()
+        :host-context(.is-)
     
     
     .burgerOverlay {
