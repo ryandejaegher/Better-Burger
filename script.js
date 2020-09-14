@@ -34,7 +34,10 @@ Burger
 
         connectedCallback() {
             this.getBurgerLinks();
-            var overlaythis.shadowRoot.querySelector('.burgerOverlay'));
+            var overlay = this.shadowRoot.querySelector('.burgerOverlay');
+            this.getBurgerLinks().forEach(link => {
+                
+            })
 
         }
     }
