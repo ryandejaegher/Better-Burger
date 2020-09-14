@@ -44,7 +44,7 @@
 
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
-                this.style.display = 'bl'
+                this.style.display = 'block';
             });
 
             this.burgerToggle.addEventListener('click', function() {
