@@ -8,7 +8,7 @@
             display: block;
             visibility: hidden;
             position: fixed;
-            background: red;
+            background: yellow;
             top: 0;
             left: 0;
             width: 100%;
