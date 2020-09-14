@@ -44,6 +44,11 @@
         z-index:10000;
     }
 
+    .burgerToggle {
+        position: absolute;
+        top: 0;
+    }
+
 
     </style>
     
