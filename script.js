@@ -39,7 +39,7 @@
             super()
             this.attachShadow({mode:'open'})
             this.shadowRoot.appendChild(template.content.cloneNode(true));
-            this.burger
+            this.burger = document.querySelector('a[href="burger"]');
         
         }
 
