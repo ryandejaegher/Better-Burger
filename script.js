@@ -85,7 +85,7 @@
             this.getBurgerLinks();
             console.log(overlay)
             this.getBurgerLinks().forEach(link => {
-                thi.appendChild(link)
+                this.appendChild(link)
             })
 
         }
