@@ -85,6 +85,7 @@
         }
 
         preventBodyScrollWhenVisible() {
+            // When the modal is shown, we want a fixed body
             document.body.style.position = 'fixed';
             document.body.style.top = `-${window.scrollY}px`;
         }
