@@ -37,6 +37,7 @@
     class BetterBurger extends HTMLElement {
         constructor() {
             super()
+            self=this
             this.attachShadow({mode:'open'})
             this.shadowRoot.appendChild(template.content.cloneNode(true));
             this.burger = document.querySelector('a[href="burger"]');
