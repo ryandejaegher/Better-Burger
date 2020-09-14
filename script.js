@@ -22,8 +22,10 @@
         getBurgerLinks() {
             var burger = document.querySelector('a[href="burger"]');
             var links = burger.nextElementSibling.querySelectorAll('a');
-            
+
         }
+
+        isConnected
     }
     window.customElements.define('better-burger', BetterBurger)
 })();
