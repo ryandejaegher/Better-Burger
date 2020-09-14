@@ -27,7 +27,7 @@
 
 
     <div class="burgerOverlay">
-    <div class="burgerToggle"></div>
+    <div class="burgerToggle">Close</div>
     Burger
 
     </div>
