@@ -20,10 +20,12 @@
             z-index:10000;
             font-family: inherit;
             transform: translate(-100%,0);
+            transition: all 3s ease;
         }    
 
         :host-context(.is-open) {
             visibility:visible;
+            transform: translate(0%,0%);
         }
 
         ::slotted(*) {
