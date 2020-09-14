@@ -17,10 +17,14 @@
         width: 100%;
         height: 100vh;
         display: flex;
-            flex-direction: column;
-            justify-content: center;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         z-index:10000;
+    }
+
+    .burgerOverlay .is-open {
+        
     }
 
 
