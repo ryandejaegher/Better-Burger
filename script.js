@@ -34,7 +34,7 @@ Burger
 
         connectedCallback() {
             this.getBurgerLinks();
-            console.log(          this.shadowRoot.querySelector('.burgerOveray');)
+            console.log(this.shadowRoot.querySelector('.burgerOveray');)
 
         }
     }
