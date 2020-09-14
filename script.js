@@ -52,7 +52,7 @@
 
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
-                self.style.display = 'block';
+                self.classList.add('is-open')
             });
 
             this.burgerToggle.addEventListener('click', function() {
