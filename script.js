@@ -41,7 +41,9 @@
             this.shadowRoot.appendChild(template.content.cloneNode(true));
             this.burger = document.querySelector('a[href="burger"]');
 
-            this.burge
+            this.burger.addEventListener('click', function() {
+                console.log('the burger has been clicked')
+            })
         
         }
 
