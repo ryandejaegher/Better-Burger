@@ -50,6 +50,7 @@
 
             this.burgerToggle.addEventListener('click', function() {
                 console.log(self)
+                self.style.dispaly = 
                 console.log('the burger close button has been clicked')
             })
             
