@@ -22,7 +22,7 @@
     class BetterBurger extends HTMLElement {
         constructor() {
             super()
-            this.attachShadow()
+            this.attachShadow({mode:'open'})
         }
 
         getBurgerLinks() {
