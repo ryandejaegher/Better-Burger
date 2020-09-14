@@ -27,7 +27,7 @@
             z-index:10000;
             font-family: inherit;
             transform: translate(100%,0%);
-            transition: all 0.4s ease;
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
         }    
 
         :host-context(.is-open) {
