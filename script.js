@@ -131,8 +131,8 @@
                     opacity: ["0", "1"]
                   },
                   {
-                    duration: parseInt(500, 10),
-                    delay: (index + 1) * 200,
+                    duration: parseInt(200, 10),
+                    delay: (index + 1) * 300,
                     fill: "both",
                     easing: "ease-in-out"
                   }
