@@ -1,7 +1,7 @@
 
 (function(){
     var template = document.createElement('template');
-
+    var burgerSVG = 
     template.innerHTML = /*html*/`
     <style>
         :host {
