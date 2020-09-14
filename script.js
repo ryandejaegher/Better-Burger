@@ -83,7 +83,7 @@
 
         connectedCallback() {
             this.getBurgerLinks();
-            var overlay = this.shadowRoot.querySelector('.burgerOverlay');
+            var overlay = this.shadowRoot.appe('.burgerOverlay');
             console.log(overlay)
             this.getBurgerLinks().forEach(link => {
                 overlay.appendChild(link)
