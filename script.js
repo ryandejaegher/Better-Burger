@@ -1,7 +1,9 @@
 
 (function(){
     var template = document.createElement('template');
-    var burgerSVG = 
+    var burgerSVGTemplate =  document.createElement('template');
+
+    burgerSVGTemplate.innerHTML = 
     template.innerHTML = /*html*/`
     <style>
         :host {
