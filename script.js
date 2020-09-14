@@ -11,7 +11,7 @@
     
     </style>
     
-    <div class=>
+    <div class="overlay">
     </div>
     
     `;
