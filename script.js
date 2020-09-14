@@ -143,7 +143,7 @@
                     transform: ["scale(1.2)","scale(1)"]
                   },
                   {
-                    duration: parseInt(400, 10),
+                    duration: parseInt(500, 10),
                     delay: (index + 1) * 150,
                     fill: "both",
                     easing: "ease-in-out"
