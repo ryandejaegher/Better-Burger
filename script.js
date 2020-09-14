@@ -139,8 +139,8 @@
                     opacity: ["0", "1"],
                     transform:[
                         "translateY(12px)","translateY(0px)"
-                    ]
-                    transform:
+                    ],
+                    transform: ["scale(1.2)","scale(1)"]
                   },
                   {
                     duration: parseInt(400, 10),
