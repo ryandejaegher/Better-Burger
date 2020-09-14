@@ -20,7 +20,8 @@
         }
 
         getBurgerLinks() {
-            
+            var burger = document.querySelector('a[href="burger"]');
+            var links = burger.nextElementSibling
         }
     }
     window.customElements.define('better-burger', BetterBurger)
