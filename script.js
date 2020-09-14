@@ -43,7 +43,9 @@
 
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
-            })
+            }
+            
+            this.sha
         
         }
 
@@ -53,6 +55,8 @@
             console.log(links)
             return links;
         }
+
+
 
         connectedCallback() {
             this.getBurgerLinks();
