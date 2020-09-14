@@ -6,8 +6,8 @@ template.innerHTML = /*html*/`
         display: inline-block;
     }    
 
-    
+
 </style>
 
 
-`
+`;
