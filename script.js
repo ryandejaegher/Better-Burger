@@ -48,6 +48,8 @@
             });
 
             this.burgerToggle.addEventListener('click', function() {
+                this.style.display="none
+                ;
                 console.log('the burger close button has been clicked')
             })
             
