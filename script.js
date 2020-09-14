@@ -18,6 +18,10 @@
         constructor() {
             super()
         }
+
+        getBurgerLinks() {
+            
+        }
     }
     window.customElements.define('better-burger', BetterBurger)
 })();
