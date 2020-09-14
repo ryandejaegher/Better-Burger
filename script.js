@@ -19,5 +19,5 @@
             super()
         }
     }
-    window
+    window.customElements.define('better-burger', BetterBurger)
 })();
