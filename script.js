@@ -46,7 +46,7 @@
 
     .burgerToggle {
         position: absolute;
-        top: 0;
+        top: 480;
         right: 0;
     }
 
