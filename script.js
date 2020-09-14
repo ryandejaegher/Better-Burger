@@ -4,4 +4,8 @@ template.innerHTML = /*html*/`
 <style>
     
 </style>
+
+:host {
+    display: inline-block;
+}
 `
