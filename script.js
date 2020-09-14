@@ -109,7 +109,7 @@
                     opacity: ["0", "1"]
                   },
                   {
-                    duration: parseInt(this.timing, 10),
+                    duration: parseInt(1000, 10),
                     delay: (index + 1) * parseInt(this.offset, 10),
                     fill: "forwards",
                     easing: "ease-in-out"
