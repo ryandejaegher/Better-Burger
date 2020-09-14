@@ -43,7 +43,7 @@
 
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
-            }
+            };
             
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
         
