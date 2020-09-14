@@ -102,9 +102,9 @@
 
         animateLinks() {
             var links = this.querySelectorAll('a');
-            spans.forEach((span, index) => {
-                span.style.opacity = "0";
-                span.animate(
+            links.forEach((link, index) => {
+                link.style.opacity = "0";
+                link.animate(
                   {
                     opacity: ["0", "1"]
                   },
