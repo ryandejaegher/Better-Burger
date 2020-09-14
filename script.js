@@ -101,7 +101,21 @@
         }
 
         animateLinks() {
-            this.querySelectorAll('a')
+            var links = this.querySelectorAll('a');
+            spans.forEach((span, index) => {
+                span.style.opacity = "0";
+                span.animate(
+                  {
+                    opacity: ["0", "1"]
+                  },
+                  {
+                    duration: parseInt(this.timing, 10),
+                    delay: (index + 1) * parseInt(this.offset, 10),
+                    fill: "forwards",
+                    easing: "ease-in-out"
+                  }
+                );
+              })
          }
 
 
