@@ -46,7 +46,9 @@
                 console.log('the burger has been clicked')
             };
 
-            this.burgerToggle.addEventListener('click',fu)
+            this.burgerToggle.addEventListener('click',function() {
+                
+            })
             
             
 
