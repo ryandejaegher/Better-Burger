@@ -11,7 +11,7 @@
     
     </style>
     
-    <div class="overlay">
+    <div class="burgerOverlay">
     </div>
     
     `;
