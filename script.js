@@ -45,7 +45,7 @@
                 console.log('the burger has been clicked')
             }
             
-            this.burgerToggle = this.shadowRoot.querySelector('.burger')
+            this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
         
         }
 
