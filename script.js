@@ -69,10 +69,12 @@
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
                 self.classList.add('is-open')
+                tis.preventBodyScrollWhenVisible();
             });
 
             this.burgerToggle.addEventListener('click', function() {
                 self.classList.remove('is-open')
+                
             })
             
         }
@@ -85,7 +87,7 @@
         }
 
         preventBodyScrollWhenVisible() {
-            // When the modal is shown, we want a fixed body
+            // When the overlay is shown, we want a fixed body
             document.body.style.position = 'fixed';
             document.body.style.top = `-${window.scrollY}px`;
         }
