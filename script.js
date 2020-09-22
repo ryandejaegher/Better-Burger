@@ -14,6 +14,7 @@
             display: block;
             visibility: hidden;
             position: fixed;
+            /* Update */
             background: yellow;
             top: 0;
             right:0;
