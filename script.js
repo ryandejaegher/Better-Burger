@@ -1,4 +1,3 @@
-
 (function(){
     var template = document.createElement('template');
     var burgerSVGTemplate =  document.createElement('template');
@@ -34,9 +33,10 @@
             visibility:visible;
             transform: translate(0%,0%);
         }
-
+		
         ::slotted(*) {
             font-family: inherit;
+			opacity: 0;
         }
     
     
@@ -89,16 +89,21 @@
             self=this;
             this.attachShadow({mode:'open'})
             this.shadowRoot.appendChild(template.content.cloneNode(true));
-            //this.burger = document.querySelector('a[href="/burger"]');
-            this.burger = document.querySelector('.burger');
+            this.burger = document.querySelector('a[href="/burger"]');
+            //this.burger = document.querySelector('.burger');
             this.burger.textContent='';
             this.burger.appendChild(burgerSVGTemplate.content.cloneNode(true))
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
             this.burger.addEventListener('click', function() {
                 console.log('the burger has been clicked')
                 self.classList.add('is-open')
+              setTimeout(function() {
+                  self.animateLinks();
+              },200)
+               	setTimeout(function(){
                 self.preventBodyScrollWhenVisible();
-                self.animateLinks();
+                },1000)
+
             });
 
             this.burgerToggle.addEventListener('click', function() {
@@ -109,10 +114,9 @@
         }
 
         getBurgerLinks() {
-            //var burger = document.querySelector('a[href="/burger"]');
-            var burger = document.querySelector('.burger');
+            var burger = document.querySelector('a[href="/burger"]');
+            //var burger = document.querySelector('.burger');
             var links = burger.nextElementSibling.querySelectorAll('a');
-            console.log(links)
             return links;
         }
 
@@ -158,6 +162,8 @@
             this.getBurgerLinks();
             // console.log(overlay)
             this.getBurgerLinks().forEach(link => {
+              	link.classList.add('header-nav-item');
+              	link.style.fontSize = '4vmin'
                 this.appendChild(link)
             })
 
