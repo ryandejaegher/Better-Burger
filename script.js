@@ -43,7 +43,6 @@
     
     .burgerOverlay {
         position: fixed;
-        background: red;
         top: 0;
         left: 0;
         width: 100%;
