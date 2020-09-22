@@ -90,7 +90,6 @@
             this.attachShadow({mode:'open'})
             this.shadowRoot.appendChild(template.content.cloneNode(true));
             this.burger = document.querySelector('a[href="/burger"]');
-            //this.burger = document.querySelector('.burger');
             this.burger.textContent='';
             this.burger.appendChild(burgerSVGTemplate.content.cloneNode(true))
             this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
@@ -115,7 +114,6 @@
 
         getBurgerLinks() {
             var burger = document.querySelector('a[href="/burger"]');
-            //var burger = document.querySelector('.burger');
             var links = burger.nextElementSibling.querySelectorAll('a');
             return links;
         }
