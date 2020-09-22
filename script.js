@@ -15,7 +15,7 @@
             visibility: hidden;
             position: fixed;
             /* Update */
-            background: yellow;
+            background: white;
             top: 0;
             right:0;
             width: 100%;
