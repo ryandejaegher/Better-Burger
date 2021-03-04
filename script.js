@@ -30,7 +30,7 @@
             transition: all 0.6s cubic-bezier(0.85, 0, 0.15, 1);
         }    
 
-        :host-context(.is-open) {
+        :host(.is-open) {
             visibility:visible;
             transform: translate(0%,0%);
         }
