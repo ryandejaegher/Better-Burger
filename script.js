@@ -92,14 +92,19 @@
       this.shadowRoot.appendChild(template.content.cloneNode(true));
       this.burger = document.querySelector('a[href="/burger"]');
       this.burger.textContent = '';
+      this.animationCount = 0;
       this.burger.appendChild(burgerSVGTemplate.content.cloneNode(true));
       this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
       this.burger.addEventListener('click', function () {
         console.log('the burger has been clicked');
         self.classList.toggle('is-open');
-        setTimeout(function () {
-          self.animateLinks();
-        }, 200);
+
+        if(self.animationCount === 0) {
+          setTimeout(function () {
+            self.animateLinks();
+            self.animationCount++;
+          }, 200);
+        }
         setTimeout(function () {
           self.preventBodyScrollWhenVisible();
         }, 1000);
