@@ -96,7 +96,7 @@
       this.burgerToggle = this.shadowRoot.querySelector('.burgerToggle');
       this.burger.addEventListener('click', function () {
         console.log('the burger has been clicked');
-        self.classList.add('is-open');
+        self.classList.toggle('is-open');
         setTimeout(function () {
           self.animateLinks();
         }, 200);
@@ -106,7 +106,7 @@
       });
 
       this.burgerToggle.addEventListener('click', function () {
-        self.classList.remove('is-open');
+        self.classList.toggle('is-open');
         self.resetBodyPositionWhenNotVisible();
       });
     }
