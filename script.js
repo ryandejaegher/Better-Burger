@@ -68,8 +68,8 @@
     }
 
     .burgerToggle svg path {
-      --fillColor: black;
-      fill: var(--fillColor);
+      --closeColor: black;
+      fill: var(--closeColor);
     }
 
 
