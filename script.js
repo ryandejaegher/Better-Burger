@@ -67,6 +67,11 @@
         cursor: pointer;
     }
 
+    .burgerToggle svg path {
+      --fillColor: black;
+      fill: var(--fillColor);
+    }
+
 
     </style>
 
@@ -99,7 +104,7 @@
         console.log('the burger has been clicked');
         self.classList.toggle('is-open');
 
-        if(self.animationCount === 0) {
+        if (self.animationCount === 0) {
           setTimeout(function () {
             self.animateLinks();
             self.animationCount++;
